@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vagas Jaú e Região</title>
+<meta name="description" content="Vagas de emprego em Jaú/SP e cidades da região (até 100km): Bauru, Araraquara, São Carlos, Lençóis Paulista e outras.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Vagas Jaú e Região</h1>
+  <p>Vagas de emprego em Jaú/SP e cidades num raio de até 100km</p>
+</header>
+
+<div class="container">
+
+  <div id="viewLista">
+    <div class="filtros">
+      <label for="filtroCidade" class="linha">Cidade</label>
+      <select id="filtroCidade"></select>
+
+      <label for="campoBusca" class="linha">Buscar por título, empresa ou descrição</label>
+      <input type="text" id="campoBusca" placeholder="Ex.: vendedor, auxiliar, motorista...">
+    </div>
+
+    <div class="contagem" id="contagem"></div>
+    <div id="listaVagas"></div>
+  </div>
+
+  <div id="viewDetalhe">
+    <a class="btn-voltar" href="#">&larr; Voltar para a lista de vagas</a>
+    <div id="conteudoDetalhe"></div>
+  </div>
+
+</div>
+
+<footer>
+  <p><span id="totalVagas">0</span> vagas cadastradas &middot; atualizado em <span id="dataAtualizacao"></span></p>
+  <p>Vagas coletadas de fontes públicas (Indeed, LinkedIn, Vagas.com, PAT/SINE Jaú, Instagram e Facebook). Vagas com mais de 30 dias são removidas automaticamente nas atualizações.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
