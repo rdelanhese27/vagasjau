@@ -37,6 +37,16 @@ header p {
   padding: 12px;
 }
 
+/* Telas maiores: aproveita melhor o espaço horizontal (e evita que o
+   conteúdo fique "espremido" no centro quando o AdSense preenche as
+   laterais em telas largas). */
+@media (min-width: 900px) {
+  .container {
+    max-width: 960px;
+    padding: 16px 20px;
+  }
+}
+
 .filtros {
   background: #ffffff;
   border: 1px solid #cccccc;
@@ -79,6 +89,25 @@ header p {
   border-left: 4px solid #145a32;
   padding: 10px 12px;
   margin-bottom: 10px;
+}
+
+/* Em telas de tablet/desktop, lista de vagas em colunas: menos rolagem,
+   mais vagas visíveis de uma vez, e cria "respiro" natural nas laterais
+   para os anúncios do AdSense sem empurrar o conteúdo para o rodapé. */
+@media (min-width: 700px) {
+  #listaVagas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .vaga-card { margin-bottom: 0; }
+  #listaVagas .vazio { grid-column: 1 / -1; }
+}
+
+@media (min-width: 1300px) {
+  #listaVagas {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .vaga-card h2 {
