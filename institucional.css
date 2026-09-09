@@ -1,0 +1,122 @@
+/* Estilos complementares para páginas institucionais (Sobre, Contato, Política de Privacidade)
+   Reaproveita as variáveis visuais de style.css (header #145a32, fundo #f2f2ee, texto #222/#666).
+   Inclua este arquivo junto de style.css no mesmo diretório do site. */
+
+main.container.page-institucional {
+  padding: 24px 16px 48px;
+}
+
+.voltar-link {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: #145a32;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.voltar-link:hover {
+  text-decoration: underline;
+}
+
+.conteudo-institucional {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-left: 4px solid #145a32;
+  border-radius: 4px;
+  padding: 24px 28px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.conteudo-institucional h1 {
+  font-size: 22px;
+  color: #145a32;
+  margin: 0 0 6px;
+}
+
+.conteudo-institucional .subtitulo {
+  color: #666666;
+  font-size: 14px;
+  margin: 0 0 22px;
+}
+
+.conteudo-institucional h2 {
+  font-size: 17px;
+  color: #145a32;
+  margin: 26px 0 8px;
+}
+
+.conteudo-institucional h2:first-of-type {
+  margin-top: 6px;
+}
+
+.conteudo-institucional p {
+  font-size: 14px;
+  color: #222222;
+  line-height: 1.6;
+  margin: 0 0 12px;
+}
+
+.conteudo-institucional ul {
+  margin: 0 0 12px;
+  padding-left: 20px;
+}
+
+.conteudo-institucional li {
+  font-size: 14px;
+  color: #222222;
+  line-height: 1.6;
+  margin-bottom: 6px;
+}
+
+.conteudo-institucional a {
+  color: #145a32;
+}
+
+.caixa-destaque {
+  background: #e2efda;
+  border-radius: 4px;
+  padding: 14px 16px;
+  margin: 16px 0;
+  font-size: 14px;
+  color: #222222;
+}
+
+.contato-email {
+  display: inline-block;
+  background: #145a32;
+  color: #ffffff !important;
+  padding: 9px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.contato-email:hover {
+  background: #0e3f22;
+}
+
+.data-atualizacao {
+  color: #999999;
+  font-size: 12px;
+  margin-top: 28px;
+  text-align: center;
+}
+
+/* Rodapé institucional (links) reaproveitado no index.html e nas páginas internas */
+.footer-links {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #145a32;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
