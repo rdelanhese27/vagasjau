@@ -77,6 +77,25 @@ header p {
   display: block;
 }
 
+.link-destaque {
+  margin: 0;
+  font-size: 13px;
+  text-align: center;
+  background: #fff8e1;
+  border: 1px solid #e6d38a;
+  padding: 8px 10px;
+}
+
+.link-destaque a {
+  color: #8a6d00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.link-destaque a:hover {
+  text-decoration: underline;
+}
+
 .contagem {
   font-size: 13px;
   color: #555555;
