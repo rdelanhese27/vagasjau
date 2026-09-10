@@ -120,7 +120,12 @@ function renderDetalhe(id) {
   html += '<h2>' + escapeHtml(v.titulo) + '</h2>';
 
   html += '<div class="campo"><div class="rotulo">Empresa</div><div class="valor">' + escapeHtml(v.empresa || "Não informado") + '</div></div>';
-  html += '<div class="campo"><div class="rotulo">Cidade</div><div class="valor">' + escapeHtml(v.cidade) + '</div></div>';
+
+  var valorCidade = escapeHtml(v.cidade);
+  if (v.cidade === "Jaú") {
+    valorCidade += ' <a href="/jau.html" class="link-cidade">Saiba mais sobre a cidade</a>';
+  }
+  html += '<div class="campo"><div class="rotulo">Cidade</div><div class="valor">' + valorCidade + '</div></div>';
   html += '<div class="campo"><div class="rotulo">Salário</div><div class="valor">' + escapeHtml(v.salario || "Não informado") + '</div></div>';
   html += '<div class="campo"><div class="rotulo">Data de publicação</div><div class="valor">' + porExtenso(v.data_publicacao) + '</div></div>';
   html += '<div class="campo"><div class="rotulo">Descrição completa</div><div class="valor">' + escapeHtml(v.descricao || "Sem descrição disponível.") + '</div></div>';

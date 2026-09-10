@@ -104,6 +104,42 @@ main.container.page-institucional {
   text-align: center;
 }
 
+/* Grade de números rápidos (usada na página Conheça Jaú) */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 16px 0 20px;
+}
+
+@media (min-width: 480px) {
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.stats-grid .stat-item {
+  background: #e2efda;
+  border-radius: 4px;
+  padding: 12px 8px;
+  text-align: center;
+}
+
+.stats-grid .stat-numero {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #145a32;
+  line-height: 1.2;
+}
+
+.stats-grid .stat-rotulo {
+  display: block;
+  font-size: 11px;
+  color: #444444;
+  margin-top: 3px;
+}
+
 /* Rodapé institucional (links) reaproveitado no index.html e nas páginas internas */
 .footer-links {
   text-align: center;

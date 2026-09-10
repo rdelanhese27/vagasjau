@@ -226,6 +226,20 @@ header p {
   white-space: pre-line;
 }
 
+.link-cidade {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #145a32;
+  text-decoration: none;
+  white-space: normal;
+}
+
+.link-cidade:hover {
+  text-decoration: underline;
+}
+
 .detalhe .candidatura {
   background: #fff8e1;
   border: 1px solid #e6d38a;
