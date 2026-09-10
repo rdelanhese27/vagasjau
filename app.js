@@ -12,6 +12,19 @@ var CIDADES = [
 
 var CIDADE_PADRAO = "Jaú";
 
+// Cidades que têm página institucional própria ("Conheça [cidade]"), com o
+// nome do arquivo HTML correspondente. Só entram aqui cidades com mais de 5
+// vagas cadastradas. Cidades fora deste mapa não mostram o link "Saiba mais
+// sobre a cidade" no detalhe da vaga.
+var PAGINAS_CIDADE = {
+  "Jaú": "/jau.html",
+  "Bauru": "/bauru.html",
+  "Araraquara": "/araraquara.html",
+  "São Carlos": "/sao-carlos.html",
+  "Lençóis Paulista": "/lencois-paulista.html",
+  "Agudos": "/agudos.html"
+};
+
 function porExtenso(dataStr) {
   if (!dataStr) { return "Data não informada"; }
   var partes = dataStr.split("-");
@@ -122,8 +135,9 @@ function renderDetalhe(id) {
   html += '<div class="campo"><div class="rotulo">Empresa</div><div class="valor">' + escapeHtml(v.empresa || "Não informado") + '</div></div>';
 
   var valorCidade = escapeHtml(v.cidade);
-  if (v.cidade === "Jaú") {
-    valorCidade += ' <a href="/jau.html" class="link-cidade">Saiba mais sobre a cidade</a>';
+  var paginaCidade = PAGINAS_CIDADE[v.cidade];
+  if (paginaCidade) {
+    valorCidade += ' <a href="' + paginaCidade + '" class="link-cidade">Saiba mais sobre a cidade</a>';
   }
   html += '<div class="campo"><div class="rotulo">Cidade</div><div class="valor">' + valorCidade + '</div></div>';
   html += '<div class="campo"><div class="rotulo">Salário</div><div class="valor">' + escapeHtml(v.salario || "Não informado") + '</div></div>';
