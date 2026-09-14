@@ -22,7 +22,8 @@ var PAGINAS_CIDADE = {
   "Araraquara": "/araraquara.html",
   "São Carlos": "/sao-carlos.html",
   "Lençóis Paulista": "/lencois-paulista.html",
-  "Agudos": "/agudos.html"
+  "Agudos": "/agudos.html",
+  "Barra Bonita": "/barra-bonita.html"
 };
 
 function porExtenso(dataStr) {
