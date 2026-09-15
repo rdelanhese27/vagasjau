@@ -156,6 +156,24 @@ main.container.page-institucional {
   margin: 4px auto 22px;
 }
 
+/* Imagens ilustrativas no meio do texto dos artigos do blog */
+.artigo-imagem-meio {
+  display: block;
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  margin: 20px auto 6px;
+}
+
+/* Crédito/fonte exibido logo abaixo de imagens de terceiros no meio dos artigos */
+.credito-imagem {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  color: #999999;
+  margin: 0 0 20px;
+}
+
 /* Listagem do blog (blog.html) */
 .blog-lista {
   display: grid;
