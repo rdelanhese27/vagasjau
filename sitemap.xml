@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://vagasjau.com.br/</loc>
+       <lastmod>2026-09-17T19:54:41+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/blog.html</loc>
+       <lastmod>2026-09-17T19:54:40+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/destaque.html</loc>
+       <lastmod>2026-09-17T19:54:41+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/sobre.html</loc>
+       <lastmod>2026-09-17T19:54:41+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/contato.html</loc>
+       <lastmod>2026-09-17T19:54:40+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/privacidade.html</loc>
+       <lastmod>2026-09-17T19:54:40+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/blog-100-curriculos-sem-entrevista.html</loc>
+       <lastmod>2026-09-17T19:54:40+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/blog-curriculo-entrevistas.html</loc>
+       <lastmod>2026-09-17T19:54:40+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/blog-curriculo.html</loc>
+       <lastmod>2026-09-17T19:54:40+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/blog-mercado-trabalho-interior.html</loc>
+       <lastmod>2026-09-17T19:54:41+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+</urlset>
