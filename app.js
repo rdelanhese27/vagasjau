@@ -23,7 +23,12 @@ var PAGINAS_CIDADE = {
   "São Carlos": "/sao-carlos.html",
   "Lençóis Paulista": "/lencois-paulista.html",
   "Agudos": "/agudos.html",
-  "Barra Bonita": "/barra-bonita.html"
+  "Barra Bonita": "/barra-bonita.html",
+  "Pederneiras": "/pederneiras.html",
+  "Macatuba": "/macatuba.html",
+  "Brotas": "/brotas.html",
+  "Ibitinga": "/ibitinga.html",
+  "Dois Córregos": "/dois-corregos.html"
 };
 
 function porExtenso(dataStr) {
