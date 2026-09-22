@@ -17,18 +17,18 @@ var CIDADE_PADRAO = "Jaú";
 // vagas cadastradas. Cidades fora deste mapa não mostram o link "Saiba mais
 // sobre a cidade" no detalhe da vaga.
 var PAGINAS_CIDADE = {
-  "Jaú": "/jau.html",
-  "Bauru": "/bauru.html",
-  "Araraquara": "/araraquara.html",
-  "São Carlos": "/sao-carlos.html",
-  "Lençóis Paulista": "/lencois-paulista.html",
-  "Agudos": "/agudos.html",
-  "Barra Bonita": "/barra-bonita.html",
-  "Pederneiras": "/pederneiras.html",
-  "Macatuba": "/macatuba.html",
-  "Brotas": "/brotas.html",
-  "Ibitinga": "/ibitinga.html",
-  "Dois Córregos": "/dois-corregos.html"
+  "Jaú": "/cidades/jau.html",
+  "Bauru": "/cidades/bauru.html",
+  "Araraquara": "/cidades/araraquara.html",
+  "São Carlos": "/cidades/sao-carlos.html",
+  "Lençóis Paulista": "/cidades/lencois-paulista.html",
+  "Agudos": "/cidades/agudos.html",
+  "Barra Bonita": "/cidades/barra-bonita.html",
+  "Pederneiras": "/cidades/pederneiras.html",
+  "Macatuba": "/cidades/macatuba.html",
+  "Brotas": "/cidades/brotas.html",
+  "Ibitinga": "/cidades/ibitinga.html",
+  "Dois Córregos": "/cidades/dois-corregos.html"
 };
 
 function porExtenso(dataStr) {
