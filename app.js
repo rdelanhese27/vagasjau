@@ -28,7 +28,8 @@ var PAGINAS_CIDADE = {
   "Macatuba": "/cidades/macatuba.html",
   "Brotas": "/cidades/brotas.html",
   "Ibitinga": "/cidades/ibitinga.html",
-  "Dois Córregos": "/cidades/dois-corregos.html"
+  "Dois Córregos": "/cidades/dois-corregos.html",
+  "Bariri": "/cidades/bariri.html"
 };
 
 function porExtenso(dataStr) {
