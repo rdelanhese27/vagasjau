@@ -4,103 +4,109 @@
 
   <url>
        <loc>https://vagasjau.com.br/</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>1.0000</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/blog.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc>https://vagasjau.com.br/blog/blog-20-perguntas-entrevista.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <loc>https://vagasjau.com.br/blog/blog-emprego-depois-dos-40.html</loc>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.9500</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/blog/blog-20-perguntas-entrevista.html</loc>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/blog/blog-melhorar-linkedin.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
-  </url>
-  <url>
-       <loc>https://vagasjau.com.br/blog/blog-adaptar-curriculo-ia.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/destaque.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/sobre.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/contato.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:03+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/privacidade.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.8000</priority>
   </url>
   <url>
-       <loc>https://vagasjau.com.br/blog/blog-15-prompts-chatgpt-emprego.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <loc>https://vagasjau.com.br/blog/blog-adaptar-curriculo-ia.html</loc>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://vagasjau.com.br/blog/blog-15-prompts-chatgpt-emprego.html</loc>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/blog/blog-chatgpt-conseguir-emprego.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/blog/blog-como-fazer-curriculo-passar-ats.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
-       <priority>0.9500</priority>
+       <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/blog/blog-ats-o-que-e.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/blog/blog-100-curriculos-sem-entrevista.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/blog/blog-curriculo-entrevistas.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/blog/blog-curriculo.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
   <url>
        <loc>https://vagasjau.com.br/blog/blog-mercado-trabalho-interior.html</loc>
-       <lastmod>2026-10-20T16:37:39+00:00</lastmod>
+       <lastmod>2026-10-26T13:17:04+00:00</lastmod>
        <changefreq>daily</changefreq>
        <priority>0.6400</priority>
   </url>
