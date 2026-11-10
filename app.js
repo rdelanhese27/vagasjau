@@ -29,7 +29,8 @@ var PAGINAS_CIDADE = {
   "Brotas": "/cidades/brotas.html",
   "Ibitinga": "/cidades/ibitinga.html",
   "Dois Córregos": "/cidades/dois-corregos.html",
-  "Bariri": "/cidades/bariri.html"
+  "Bariri": "/cidades/bariri.html",
+  "Mineiros do Tietê": "/cidades/mineiros-do-tiete.html"
 };
 
 function porExtenso(dataStr) {
