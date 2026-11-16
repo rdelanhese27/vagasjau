@@ -30,7 +30,8 @@ var PAGINAS_CIDADE = {
   "Ibitinga": "/cidades/ibitinga.html",
   "Dois Córregos": "/cidades/dois-corregos.html",
   "Bariri": "/cidades/bariri.html",
-  "Mineiros do Tietê": "/cidades/mineiros-do-tiete.html"
+  "Mineiros do Tietê": "/cidades/mineiros-do-tiete.html",
+  "Torrinha": "/cidades/torrinha.html"
 };
 
 function porExtenso(dataStr) {
